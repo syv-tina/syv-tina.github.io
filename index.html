@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Syv Tina</title>
+    <meta name="description" content="Landing page for Syv Tina AB." />
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css" />
+</head>
+
+<body>
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+        <header class="container">
+            <hgroup>
+                <h1>Välkommen till Syv-Tina AB</h1>
+                <p>Vägledning och karriärrådgivning</p>
+            </hgroup>
+            <p><a href="#contact" role="button">Kontakta mig</a></p>
+        </header>
+    </div>
+    <!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Ut sit amet sem ut velit</h2>
+                    <p>Quisque mi est</p>
+                </hgroup>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lobortis est vel
+                    velit bibendum ultrices. Sed aliquam tortor vel odio fermentum ullamcorper eu vitae
+                    neque. Sed non diam at tellus venenatis viverra. Vestibulum et leo laoreet arcu tempor
+                    eleifend venenatis ac leo. Pellentesque euismod justo sed nisl sollicitudin varius. Duis
+                    venenatis nisl sit amet ante rutrum posuere. Etiam nec ullamcorper leo, sed placerat
+                    mauris.
+                </p>
+                <figure>
+                    <img src="img/ashim-d-silva-3Ijt7UkSBYE-unsplash-1500x750.jpg" alt="Architecture" />
+                    <figcaption>
+                        Image from
+                        <a href="https://unsplash.com/photos/3Ijt7UkSBYE" target="_blank">unsplash.com</a>
+                    </figcaption>
+                </figure>
+                <h3>Nulla augue metus</h3>
+                <p>
+                    Pacilisis sed ante ut, posuere volutpat quam. Maecenas maximus blandit mi ac finibus.
+                    Proin quis lacinia tellus. Aliquam erat volutpat. Aliquam erat volutpat. Phasellus
+                    suscipit nisi augue, id accumsan tortor auctor ut. Duis odio arcu, egestas nec nulla
+                    vel, fermentum bibendum ex.
+                </p>
+                <h3>Sed purus sapien, porta a cursus sed, maximus et metus.</h3>
+                <p>
+                    Phasellus molestie ante sed massa bibendum, eget tempus ex sollicitudin. Vestibulum
+                    libero nulla, porttitor nec faucibus et, scelerisque eget quam. Nullam finibus tempor
+                    dui, vel congue urna condimentum ac. Fusce ultricies mauris justo, nec vulputate mauris
+                    pulvinar eu. Sed tempus ligula lorem, at tincidunt risus mollis non. Quisque et turpis
+                    sit amet sapien gravida ullamcorper in eu velit. Curabitur luctus ornare finibus. Proin
+                    tempor nulla sagittis est fermentum dapibus. Vestibulum posuere mattis congue. Ut
+                    porttitor id sem euismod tristique. Quisque mi est, posuere nec lorem eu, vulputate
+                    vehicula diam. Nullam scelerisque, libero posuere efficitur bibendum, urna odio finibus
+                    lorem, sed volutpat dolor ligula in dolor. Suspendisse suscipit efficitur neque, ut
+                    porta tellus mollis vel. Nam consequat arcu ac tellus porta, nec egestas orci sodales.
+                </p>
+            </section>
+
+            <aside>
+                <a href="https://tsl.se" aria-label="Example">
+                    <img src="https://tsl.se/media/s4sgkxrq/tsl_cirkel.png" alt="TSL" />
+                </a>
+                <p>
+                    <a href="https://tsl.se" onclick="event.preventDefault()">Omställningsstudiestöd</a><br />
+                    <small>Jag jobbar på uppdrag av TSL med om omställningsstudiestöd.</small>
+                </p>
+                <a href="#" aria-label="Example" onclick="event.preventDefault()">
+                    <img src="https://www.csn.se/images/18.62fc105b15ddecaf46f27a7/csnlogo.png" alt="CSN" />
+                </a>
+                <p>
+                    <a href="#" onclick="event.preventDefault()">Studiestöd</a><br />
+                    <small>Jag hanterar frågor om studiestöd och ansökan hos CSN.</small>
+                </p>
+                <a href="#" aria-label="Example" onclick="event.preventDefault()">
+                    <img src="https://www.visnet.se/wp-content/themes/vis/assets/img/vislogo_gron.png" alt="Vis" />
+                </a>
+                <p>
+                    <a href="https://www.visnet.se/natverk/siv/">Medlem i VIS styrelse</a><br />
+                    <small>
+                        Jag är invald i styrelsen och aktiv inom nätverket SIV. SIV är ett nätverk inom VIS för vägledare.
+                    </small>
+                </p>
+            </aside>
+        </div>
+    </main>
+    <!-- ./ Main -->
+
+    <!-- Subscribe -->
+    <section aria-label="Kontakta mig" id="contact">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Kontakta mig</h2>
+                    <p>Lämna dina kontaktuppgifter och ett meddelande</p>
+                </hgroup>
+                <form action="https://formspree.io/your@email.com" method="POST">
+                    <label for="name">Namn</label>
+                    <input type="text" id="name" name="user_name" />
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="user_mail" />
+                    <label for="phone">Telefon</label>
+                    <input type="phone" id="phone" name="user_phone" />
+                    <label for="msg">Meddelande till Syv Tina</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                    <button type="submit">Skicka</button>
+                    <input type="hidden" name="_next" value="/thank-you" />
+                    <input type="hidden" name="_subject" value="New submission from contact form" />
+                    <input type="hidden" name="_cc" value="another-email@email.com" />
+                </form>
+            </article>
+        </div>
+    </section>
+    <!-- ./ Subscribe -->
+
+    <!-- Footer -->
+    <footer class="container">
+        <small>Built with <a href="https://picocss.com">Pico</a> •
+            <a href="https://github.com/picocss/examples/tree/master/v1-company/">Source code</a></small>
+    </footer>
+    <!-- ./ Footer -->
+</body>
+
+</html>
