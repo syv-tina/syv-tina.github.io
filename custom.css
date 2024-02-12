@@ -81,3 +81,7 @@
   section article {
     margin-bottom: 0;
   }
+
+  footer.container {
+    padding-top: 0;
+  }
