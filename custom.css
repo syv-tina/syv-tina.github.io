@@ -85,3 +85,7 @@
   footer.container {
     padding-top: 0;
   }
+
+  img.round {
+    border-radius: 50%;
+  }
