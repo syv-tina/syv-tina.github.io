@@ -113,13 +113,13 @@
                 </hgroup>
                 <form action="https://formspree.io/f/mjvnqway" method="POST">
                     <label for="name">Namn</label>
-                    <input type="text" id="name" name="user_name" />
+                    <input type="text" id="name" name="user_name" required />
                     <label for="mail">E-mail</label>
-                    <input type="email" id="mail" name="user_mail" />
+                    <input type="email" id="mail" name="user_mail" required />
                     <label for="phone">Telefon</label>
-                    <input type="phone" id="phone" name="user_phone" />
+                    <input type="phone" id="phone" name="user_phone" required />
                     <label for="msg">Meddelande till Syv Tina</label>
-                    <textarea name="message"></textarea>
+                    <textarea name="message" required></textarea>
                     <button type="submit">Skicka</button>
                     <input type="hidden" name="_next" value="/thank-you" />
                     <input type="hidden" name="_subject" value="Kontakt från hemsidan" />
